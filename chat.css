@@ -1,0 +1,529 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+.main{
+    display: flex;
+    /* flex-direction: column; */
+justify-content: center;
+height: 100%;
+    align-items: center;
+    /* width: 1300px; */
+}
+
+.hide{
+    visibility: hidden;
+}
+.visible{
+    visibility: visible;
+}
+.hide1{
+    visibility: hidden;
+    display: none;
+}
+
+.visible1{
+    visibility: visible;
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+
+    .leftpara button{
+    margin-left: 1px;
+margin-bottom: 10px;
+
+/* margin-bottom: 22px;
+transform: translateY(21px); */
+height: 33px;
+}
+
+.leftm .leftpara p {
+    margin: -3px 0;
+  }
+  .rightm .rightpara p {
+    margin: -3px 0;
+  }
+
+.leftpara span{
+   width:45px;
+}
+.left .leftpara{
+width: 223px;
+}
+.left .leftpara button{
+margin-top: -14px;
+
+    margin-left: 1px;
+margin-bottom: 19px;
+
+/* margin-bottom: 22px;
+transform: translateY(10px); */
+transform: translateY(0px); 
+
+height: 33px;
+width: 110px;
+}
+
+.leftpara div{
+    display: block;
+    width: 313px;
+transform: translateX(0px);
+flex-direction: column;
+margin: 10px 0;
+}
+
+.rightpara span{
+   width:45px;
+}
+
+.leftpara h3{
+height: 22px;
+width: 131px;
+margin: 5px 0;
+color: floralwhite;
+background: #c3c1c1;
+padding: auto;
+border-radius: 5px;
+border: 0;
+text-align: center;
+}
+.rightm .rightpara span{
+width: 13px;
+}
+.leftm .leftpara span{
+width: 13px;
+}
+
+.rightpara h3{
+height: 22px;
+width: 131px;
+margin: 5px 0;
+color: floralwhite;
+
+background: #c3c1c1;
+padding: auto;
+border-radius: 5px;
+border: 0;
+text-align: center;
+}
+
+
+    .main{
+    display: flex;
+    flex-direction: column;
+    /* height: 500px; */
+height: 100%;
+
+justify-content: center;
+    align-items: center;
+    /* width: 1300px; */
+}
+.main .le{
+    width: 300px;
+    margin: 20px 0;
+
+}
+
+.main .ri{
+    width: 300px;
+}
+
+.leftpara button{
+    margin-left: 1px;
+margin-bottom: 10px;
+
+/* margin-bottom: 22px;
+transform: translateY(21px); */
+height: 33px;
+}
+
+.right .rightpara button{
+margin-top: -14px;
+
+    margin-left: 1px;
+margin-bottom: 19px;
+
+/* margin-bottom: 22px;
+transform: translateY(10px); */
+height: 33px;
+width: 110px;
+}
+
+.right .rightpara{
+width: 223px;
+}
+
+.rightpara div{
+    display: block;
+    width: 313px;
+transform: translateX(0px);
+flex-direction: column;
+margin: 10px 0;
+}
+.clear{
+margin-bottom: 20px;
+}
+.outside2 input {
+padding: 8px;
+border: 0;
+border-radius: 40px;
+width: 178px;
+background: #bdbaba;
+color: white;
+}
+
+.outside input {
+padding: 8px;
+border: 0;
+border-radius: 40px;
+width: 178px;
+background: #bdbaba;
+color: white;
+}
+
+}
+
+input{
+    padding: 8px;
+border: 0;
+border-radius: 40px;
+width: 200px;
+background: #bdbaba;
+color: white;
+margin-bottom: 24px;
+}
+
+.right{
+    /* margin-left: 70px; */
+}
+
+.ok1{
+    height: 32px;
+    border-radius: 55px;
+}
+
+
+.ok2{
+    height: 32px;
+    border-radius: 55px;
+}
+
+
+p{
+    width: 200px;
+    border-radius: 5px;
+    margin: 10px 0;
+/* height: 30px; */
+/* padding: 30px 58px; */
+/* display: flex;
+/* width: 57px; */
+/* justify-content: end; */
+/* flex-direction: column;
+align-items: end; */ 
+}
+.leftm, .rightm {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
+    overflow-y:visible; /* Enable vertical scroll when content exceeds the height */
+    overflow-x: hidden;
+}
+.leftpara, .rightpara {
+    max-height: 400px; /* Set a maximum height for the chat content */
+}
+
+
+
+
+
+
+
+.leftm{
+    visibility: hidden;
+}
+.changename{
+    visibility: hidden;
+}
+
+.rightm{
+    visibility: hidden;
+}
+.changename2{
+    visibility: hidden;
+}
+.rain{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    cursor: pointer;
+}
+
+
+
+.le {
+    width: 500px;
+    margin: 0 20px;
+    background-image: url(439038.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 24px;
+    background-repeat: no-repeat;
+    background-size: cover; /* Change 'auto' to 'auto' */
+}
+
+.ri {
+    width: 500px;
+    margin: 0 20px;
+    background-image: url(439038.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 24px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    /* margin: 10px 0; */
+    transform: translateY(16px);
+}
+button {
+padding: 8px 16px;
+border: none;
+border-radius: 41px;
+background-color: #25D366; /* WhatsApp green color */
+color: #fff;
+cursor: pointer;
+margin-right: 14px;
+font-size: 14px;
+}
+
+button:hover {
+background-color: #128C7E; /* Darker shade of green on hover */
+}
+
+/* Add CSS for delete buttons */
+span.delete {
+color: #fff;
+background-color: #FF0000; /* Red color for delete buttons */
+padding: 6px 12px;
+border-radius: 50%;
+cursor: pointer;
+font-size: 12px;
+margin-left: 8px;
+}
+
+span.delete:hover {
+background-color: #D32F2F; /* Darker shade of red on hover */
+}
+p{
+    margin: 6px 0;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #fff;
+    word-wrap: break-word;
+}
+/* .leftuser{
+    width: 520px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 17px 0px;
+transform: translateX(218px) translateY(203px);
+}
+
+.leftuser2{
+    width: 520px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 23px;
+transform: translateX(732px) translateY(132px);
+}
+
+
+*/
+
+.sty{
+    
+color: orange;
+border: 1px solid;
+  
+      }
+      .leftuser{
+
+        margin: 27px 0;
+      }
+      
+      span{
+        padding: 8px 16px;
+border: none;
+border-radius: 40px;
+background-color: #dcdcdcba;
+color: #fff;
+cursor: pointer;
+height: 11px;
+      }
+      .cha{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+
+      }
+      .cha h1{
+        font-size: 40px;
+      }
+
+.leftpara{
+    /* display: flex; */
+    width: 484px;
+    /* flex-direction: column; */
+}
+.leftpara p{
+    margin: 20px 0;
+}
+
+.rightpara p{
+    margin: 20px 0;
+}
+
+.rightpara{
+    display: flex;
+
+    flex-direction: column;
+    width: 484px;
+    background: none;
+}
+.one1{
+    align-self: center;
+}
+
+.one2{
+    /* transform: translateY(11px); */
+
+    margin-left: 14px;
+
+}
+
+
+.leftpara span{
+    margin-left: 11px;
+margin-bottom: 22px;
+transform: translateY(21px);
+height: 19px;
+}
+
+.rightpara span{
+    margin-left: 11px;
+margin-bottom: 22px;
+transform: translateY(21px);
+height: 19px;
+}
+.outside2{
+/* margin: 17px 0
+; */
+/* transform: translateY(11px); */
+display: flex;
+justify-content: center;
+align-items: baseline;
+}
+.outside{
+    display: flex;
+justify-content: center;
+align-items: baseline;
+}
+
+
+/* For WebKit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar thumb */
+    border-radius: 5px; /* Rounded corners of the thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color of the scrollbar thumb on hover */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Color of the scrollbar track */
+  }
+  
+  /* For Firefox */
+  /* You may need to use different selectors for older versions of Firefox */
+  /* Firefox 64+ */
+  html {
+    scrollbar-color: #888 #f1f1f1; /* Color of the scrollbar thumb and track */
+    scrollbar-width: thin; /* Width of the scrollbar */
+  }
+  
+  /* Firefox 63 and below */
+  * {
+    scrollbar-face-color: #888; /* Color of the scrollbar thumb */
+    scrollbar-track-color: #f1f1f1; /* Color of the scrollbar track */
+  }
+  
+  /* For Microsoft Edge and Internet Explorer */
+  /* Note: Edge supports the same styles as Internet Explorer */
+  /* You may need to use different selectors for older versions of IE */
+  html {
+    -ms-overflow-style: none; /* Hide the scrollbar */
+  }
+  
+  /* IE 11 */
+  *::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+  }
+  
+
+
+h3 {
+    transform: translateY(-21px) translateX(117px);
+height: 22px;
+width: 210px;
+margin: 15px 0;
+color: floralwhite;
+background: #c3c1c1;
+padding: auto;
+border-radius: 5px;
+border: 0;
+text-align: center;
+}
+
+h2 {
+transform: translateY(-21px) translateX(54px);
+height: 30px;
+width: 390px;
+margin: 83px 0;
+color: floralwhite;
+
+background: #c3c1c1;
+padding: auto;
+border-radius: 5px;
+border: 0;
+text-align: center;
+}
+
+
+.rightpara div{
+display: flex;
+margin: 20px 0;
+}
+
+.leftpara div{
+display: flex;
+margin: 30px 0;
+}
